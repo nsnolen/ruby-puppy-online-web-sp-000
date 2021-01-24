@@ -19,5 +19,7 @@ class Dog
     @@all.each{|puppy| puts puppy.name}
   end
 
-
+  def save
+    @@all << name
+  end
 end
